@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ваш тренажер по запоминанию слов</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #000;
+        }
+
+        button {
+            font-size: 24px;
+            padding: 15px 30px;
+            background-color: #f00;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <button id="startButton">Start Training</button>
+
+    <!-- Здесь вы можете подключить ваш JavaScript код для обработки нажатия на кнопку -->
+    <script>
+        // Пример обработки нажатия на кнопку с помощью JavaScript
+        document.getElementById('startButton').addEventListener('click', function() {
+            // Здесь вы можете добавить код для запуска вашего тренажера
+            // Например, переход на другую страницу с тренажером или другие действия
+            alert('Ваш тренажер начался!');
+        });
+    </script>
+</body>
+</html>
